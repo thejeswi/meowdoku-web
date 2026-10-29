@@ -340,6 +340,10 @@ function __wbg_get_imports() {
         __wbg_disconnect_1eac4c705724307d: function(arg0) {
             arg0.disconnect();
         },
+        __wbg_documentElement_3f718a9a39a893d3: function(arg0) {
+            const ret = arg0.documentElement;
+            return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
+        },
         __wbg_document_9854e03c05fc8834: function(arg0) {
             const ret = arg0.document;
             return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
